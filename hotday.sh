@@ -46,5 +46,3 @@ echo -e "/dev/data/cas\t/mnt/dynatrace/cas\txfs\tdefaults\t0 0" >> /etc/fstab
 #Step 9
 mount -a
 
-wget -O dynatrace-managed.sh "https://mcsvc.dynatrace.com/downloads/installer/get/latest?token=AQECAHgWRMdElTYfhZCupuE7ykwW1JOgVOWYNXb8u4pNcPM3owAAAIQwgYEGCSqGSIb3DQEHBqB0MHICAQAwbQYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAweUME8waFek7pXIXcCARCAQIC9IOHeOaRhRnjSTsG5k8azftKWmvB7lIxWg5BR6oHhrOTD3oA9gLHffi-F5ETAHDlfpAKcgUm696RQwTBL0Oc"
-sudo /bin/sh dynatrace-managed.sh --install-silent --license o5TN3EuMt6c2gODz --cas-datastore-dir /mnt/dynatrace/cas --els-datastore-dir /mnt/dynatrace/els --svr-datastore-dir /mnt/dynatrace/svr
